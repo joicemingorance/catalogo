@@ -11,11 +11,13 @@ nav{
 	border-bottom: 1px solid #BEBEBE;
 	box-shadow: 0px 2px 15px   #BEBEBE;
 	padding-left: 8px;
+	display: flex;
 }
 
 .logo{
 	width: 60px;
 	height: 60px;
+	padding-top: 1px;
 }
 
 .arrow{
@@ -34,8 +36,13 @@ nav{
 }
 
 h1{
-	font-size: 20px;
-	font-family: 'tahoma';
+	font-size: 18px;
+	font-family: 'Bellefair', serif;
+	margin-left: 20px;
+	color: white;
+	padding-top: 20px;
+	letter-spacing: 8px;
+
 }
 
 section h2{
@@ -69,6 +76,13 @@ iframe{
 	}
 	.card{
 		display: block;
-		width: 50%;
+		width: 40%;
+	}
+	h2{
+		margin-left: 20px;
+		margin-top: 20px;
+		font-family: 'tahoma';
+		color: #ccc;
+		font-size: 28px;
 	}
 }
